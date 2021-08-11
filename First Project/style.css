@@ -78,11 +78,13 @@ header {
 }
 .context{
   text-align: center;
-  padding: 0 30%;
+  padding: 0 20%;
   padding-bottom: 30px;
 }
 .box1{
   padding: 0 30px;
+  height: 350px;
+  /* margin-top: 30px; */
 }
 .icon1{
   float: right;
@@ -108,5 +110,4 @@ header {
 .text3 a{
   text-decoration: none;
   font-size: 20px;
-  padding: 30px 0px 30px 0px;
 }
