@@ -57,7 +57,7 @@ header {
 }
 
 .intro button{
-  border-radius: 50px;
+  border-radius: 20px;
   border: 2px #fff solid;
   padding: 7px 15px;
   margin: 20px 8px;
@@ -138,4 +138,48 @@ header {
 }
 .box3 h2{
   font-weight: 500;
+}
+
+.price_box{
+background: rgb(64,64,199);
+background: linear-gradient(0deg, rgba(64,64,199,1) 26%, rgba(0,103,244,1) 86%);
+  height: auto;
+  width: auto;
+  margin: 25px;
+  padding: 20px;
+  border-radius: 20px;
+  border: 2px solid white;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);box-shadow: 0 20px 50px rgba(8, 112, 184, 0.7);
+  color: white;
+}
+.price_box h3{
+   text-align: center;
+   margin-bottom: 30px;
+   margin-top: 30px;
+   font-size: 22px;
+}
+.price_box h4{
+   text-align: center;
+   margin-bottom: 30px;
+   font-size: 30px;
+}
+
+.btn{
+   border: 2px solid #fff;
+   color: #fff;
+   border-radius: 20px;
+   font-weight: 600;
+   margin-left: 18px;
+   margin-top: 15px;
+   padding: auto 40px;
+}
+.btn a{
+  color: #fff;
+}
+
+.btn:hover{
+  background-color: #fff;
+}
+.btn a:hover{
+  color: rgba(64,64,199,1);
 }
