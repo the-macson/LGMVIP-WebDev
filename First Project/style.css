@@ -233,3 +233,32 @@ background: linear-gradient(0deg, rgba(64,64,199,1) 26%, rgba(0,103,244,1) 86%);
   text-align: center;
   color: #0067f4;
 }
+
+  /* contact from css */
+input[type=text],input[type=email], select, textarea {
+   width: 100%; 
+  padding: 12px; 
+  border: 2px solid #0067f4; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical ;
+  font-weight: 400;
+}
+
+input[type=submit] {
+  background-color: #0067f4;
+  color: white;
+  padding: 10px 20px;
+  border: 2px solid #fff;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+input[type=submit]:hover {
+  background-color: #fff;
+  color: #0067f4;
+  border: 2px solid #0067f4;
+}
