@@ -3,6 +3,9 @@
   margin: 0;
   font-family: "Poppins", sans-serif;
 }
+a{
+  text-decoration: none;
+}
 /* Add a blue background color to the top navigation */
 .topnav {
   background-color: #0067f4;
@@ -110,4 +113,29 @@ header {
 .text3 a{
   text-decoration: none;
   font-size: 20px;
+}
+.img img{
+  height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 50%; */
+}
+.bt{
+  border-radius: 50px;
+  border: 2px #fff solid;
+   font-weight: 600;
+   padding: 7px 18px;
+  margin-top: 14px;
+}
+
+.box2{
+  padding: 10px;
+}
+.box3{
+   padding: 20px;
+  /* text-align: center; */
+}
+.box3 h2{
+  font-weight: 500;
 }
