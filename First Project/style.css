@@ -149,7 +149,8 @@ background: linear-gradient(0deg, rgba(64,64,199,1) 26%, rgba(0,103,244,1) 86%);
   padding: 20px;
   border-radius: 20px;
   border: 2px solid white;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);box-shadow: 0 20px 50px rgba(8, 112, 184, 0.7);
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  box-shadow: 0 20px 50px rgba(8, 112, 184, 0.7);
   color: white;
 }
 .price_box h3{
@@ -186,6 +187,7 @@ background: linear-gradient(0deg, rgba(64,64,199,1) 26%, rgba(0,103,244,1) 86%);
 .about{
   margin-top: 100px;
   /* text-align: center; */
+  height: 350px;
 }
 .about_section{
   float: left;
@@ -204,4 +206,33 @@ background: linear-gradient(0deg, rgba(64,64,199,1) 26%, rgba(0,103,244,1) 86%);
 .about_section h2{
   font-size: 100px;
   font-weight: 600;
+}
+
+.team_box{
+  margin: 25px;
+  /* background-color: #0067f4; */
+  height: auto;
+}
+
+.team_box img{
+  height: 200px;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  box-shadow: 0 20px 50px rgba(8, 112, 184, 0.7);
+  margin-top: 30px;
+}
+
+.team_box h3{
+  text-align: center;
+  margin-top: 40px;
+  font-weight: 400;
+}
+.team_box p{
+  text-align: center;
+  color: #0067f4;
+}
+.icon{
+  width: 20px;
 }
