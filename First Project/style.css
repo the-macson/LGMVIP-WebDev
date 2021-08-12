@@ -262,3 +262,10 @@ input[type=submit]:hover {
   color: #0067f4;
   border: 2px solid #0067f4;
 }
+
+.footer{
+  margin-top: 50px;
+  color:black;
+  font-style: italic;
+  margin-left: 20px;
+}
