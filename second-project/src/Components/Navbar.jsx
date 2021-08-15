@@ -7,7 +7,7 @@ const Navbar =()=>{
                 <h1>
                       The Macson
                 </h1>
-                <button>Get User</button>
+                <button>Get Users</button>
           </div>
          </>
       );
