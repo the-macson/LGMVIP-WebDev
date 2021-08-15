@@ -47,7 +47,7 @@ function App() {
       <button onClick={display}>Get Users</button>
     </div>
      {loading ? <Spinner /> : null}
-      <div className="container">
+      <div>
         {loading ? null : cardData.map(renderCard)}
       </div>
     </>
